@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Desigers;
+    src: url(Desigers.TTF);
+  }
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Desigers', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* Navigation bar */
+nav{
+    background-color: white;
+}
+ul{
+    display: flex;
+    gap: 5%;
+    justify-content: end;
+}
+nav>ul>li>a{
+    color: black;
+    font-weight: bold;
+}
+
+/* Hero section */
+.hero-section{
+    background-color: #f098be;
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero-text{
+    font-size: 8rem;
+}
+.hero-img{
+    height: 350px;
+}
+
+/* About Section */
+.about{
+    background-color: #F0A0B9;
+    padding: 3rem;
+    text-align: center;
+    padding-bottom: 0;
+}
+.about-heading{
+    font-size: bold;
+}
+.white{
+    color: white;
+}
+.inspector{
+    height: 230px;
+    margin-top: 30px;
+}
+.about-btn{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border: none;
+}
+
+/* Characters */
+.character-section{
+    padding: 3rem;
+    background-color: #fff;
+}
+.characters{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.character-img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.card{
+    text-align: center;
+    height: 300px;
+    background-color: #F0A0B9;
+    padding: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.characters-heading{
+    text-align: center;
+    font-weight: bold;
+
+}
+.card>h3>a{
+    color: black;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.paw{
+    height: 30px;
+}
